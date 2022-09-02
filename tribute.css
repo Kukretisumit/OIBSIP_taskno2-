@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: white;
+}
+#hader{
+    color:white;
+   text-align: center;
+   font-size: 100px;
+   text-shadow: 5px 5px 10px black;
+   padding: 50px;
+   
+}
+#info{
+    background-color: rgb(240, 233, 233);
+    margin:0 20%;
+    box-shadow: 20px 20px 15px gray;
+}
+.image{
+    padding-top: 0px;
+}
+pre{
+    color:white;
+}
+
+.all{
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.about{
+    text-align: justify;
+    font-size: large;
+    color:black;
+ margin-bottom: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.bio{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+#logo{
+    width: 80px;
+    cursor: pointer;
+}
+.st{
+    width: 680px;
+    height: auto;
+}
+.youtube{
+    width: 200px;
+    height: auto;
+}
+.link{
+   margin:0 30% ;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px,auto);
+    margin-top: 50px;
+    padding: 10px;
+    justify-items: center;
+    gap: 10px;
+}
+.items{
+    display: grid;
+    padding: 10px;
+   margin-top: 10px;
+   align-items: center;
+   
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
